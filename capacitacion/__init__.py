@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from. import mymodule
+from . import models
