@@ -2,11 +2,13 @@
 {
     'name': "curso",
 
-    'summary': """
-        """,
+    'summary': """Academy app to manage Training""",
 
     'description': """
-        Capacitacion de odoo sh en thavas
+        Academy Module to manage Training:
+        - Course
+        - Sessions
+        - Attendeess
     """,
 
     'author': "Thavas",
@@ -23,13 +25,11 @@
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        
     ],
     # only loaded in demonstration mode
     'demo': [
-        'demo/demo.xml',
+        'demo/academy_demo.xml',
     ],
     'license': 'LGPL-3',
 }
