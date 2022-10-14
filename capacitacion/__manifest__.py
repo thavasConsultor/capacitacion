@@ -25,7 +25,10 @@
 
     # always loaded
     'data': [
-        
+        "security/academy_security.xml",
+        "security/ir.model.acces.csv",
+        "views/academy_menuitems.xml",
+        "views/module_views.xml",
     ],
     # only loaded in demonstration mode
     'demo': [
