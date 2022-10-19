@@ -2,9 +2,9 @@
 
 from odoo import models, fields, api
 
-class Course(models.Model):
+class Curso(models.Model):
     _name = 'academy.curso'
-    _description = 'Course info'
+    _description = 'Curso info'
 
     name = fields.Char(string="Title", required=True)
     description = fields.Text(string="description")

@@ -2,13 +2,14 @@
 
 <odoo>
     <data>
-        <record id="course_list_action" model="ir.actions.act_window">
-            <field name="name">Courses</field>
-            <field name="res_model">academy.courses</field>
+        <record model="ir.actions.act_window" id="curso_list_action">
+            <field name="name">Cursos</field>
+            <field name="res_model">academy.curso</field>
             <field name="view_model">tree,form</field>
             <field name="help" type="html">
                 <p class="o_view_nocontent_smiling_face">
-                    Create the first course
+                    Create the first curso
+                </p>
             </field>
         </record>
 
@@ -22,10 +23,10 @@
             parent="menu_academy"
             sequence="2"/>
         <menuitem
-            id="menu_academy_courses"
-            name="Courses"
+            id="menu_academy_curso"
+            name="Cursos"
             parent="menu_academy_sub"
             sequence="3"
-            action="course_list_action"/>
+            action="curso_list_action"/>
     </data>
 </odoo>

@@ -6,7 +6,7 @@
 
     'description': """
         Academy Module to manage Training:
-        - Course
+        - Curso
         - Sessions
         - Attendeess
     """,
@@ -26,7 +26,7 @@
     # always loaded
     'data': [
         "security/academy_security.xml",
-        "security/ir.model.acces.csv",
+        "security/ir.model.access.csv",
         "views/academy_menuitems.xml",
         "views/module_views.xml",
     ],

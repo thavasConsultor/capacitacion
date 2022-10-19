@@ -2,11 +2,11 @@
 
 <odoo>
     <data>
-        <record model="ir.ui.view" id="course_view_form">
-            <field name="name">academy.course.form</field>
-            <field name="model">academy.course</field>
+        <record model="ir.ui.view" id="curso_view_form">
+            <field name="name">academy.curso.form</field>
+            <field name="model">academy.curso</field>
             <field name="arch" type="xml">
-                <form string="Course Form">
+                <form string="Curso Form">
                     <sheet>
                         <h1><field name="name"/></h1>
                         <group>
@@ -27,11 +27,11 @@
             </field>
         </record>
         
-        <record model="ir.ui.view" id="course_view_list">
-            <field name="name">academy.course.list</field>
-            <field name="model">academy.course</field>
+        <record model="ir.ui.view" id="curso_view_list">
+            <field name="name">academy.curso.list</field>
+            <field name="model">academy.curso</field>
             <field name="arch" type="xml">
-                <tree string="Course List">
+                <tree string="Curso List">
                     <field name="name"/>
                     <field name="description"/>
                     <field name="level"/>
@@ -39,8 +39,8 @@
             </field>
         </record>
         
-        <record model="ir.ui.view" id="course_view_search">
-            <field name="name">academy.course.search</field>
+        <record model="ir.ui.view" id="curso_view_search">
+            <field name="name">academy.curso.search</field>
             <field name="model">academy.course</field>
             <field name="arch" type="xml">
                 <search>
